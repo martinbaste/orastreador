@@ -3410,7 +3410,7 @@ input, select, textarea {
 			-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease-out, -webkit-filter 0.5s ease, -webkit-filter 0.5s ease;
 			-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease-out, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
 			transition: opacity 1.5s ease, transform 0.5s ease-out, filter 0.5s ease, -webkit-filter 0.5s ease;
-			padding: 0 !important;
+		/*	padding: 0 !important;*/
 			position: relative;
 			z-index: 2;
 		}
@@ -3929,3 +3929,95 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/*Custom*/
+.book-cover {
+	background-image: url("../../images/cover-11.jpg");
+	width: 300px;
+	height: 425px;
+	margin: 0 auto;
+	background-size: contain;
+	box-shadow: white 0 0, #e6e6e6 1px 1px, #e6e6e6 2px 2px, #d2d2d2 4px 4px, #d2d2d2 5px 5px, #c3c3c3 7px 7px, #c3c3c3 8px 8px;
+}
+
+.content-rows {
+	flex-direction: column;
+}
+
+ul.actions {
+	width: 100%;
+	margin-top: 25px;
+}
+
+#banner.major {
+	padding-top: 6em;
+	font-family: 'Raleway', sans-serif;
+	background-image: none;
+	min-height: 650px;
+	max-height: none;
+	height: unset;
+}
+
+.major h1 {
+	font-weight: 400;
+}
+.major h2 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+#banner > .inner .content p {
+	font-weight: 300;
+	font-size: 18px;
+	text-transform: none;
+	line-height: 27px;
+	letter-spacing: normal;
+}
+
+
+#footer .inner {
+	padding: 0;
+}
+#footer {
+	bottom: 0;
+	position:absolute;
+	width:600px;
+}
+
+#footer .copyright li {
+	color: rgba(244, 244, 255, 0.4);
+}
+
+#wrapper {
+	min-height: 100vh;
+	position: absolute;
+	background-image: url("../../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width:100%;
+}
+#banner:after {
+	background-color: transparent;
+}
+
+#wrapper > * > .description {
+	padding-right: 2em;
+}
+
+.inner.book {
+	min-width: 400px;
+}
+
+.inner.description {
+	min-width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+  #banner {
+    flex-direction: column;
+  }
+}
+
+body{
+	height:auto; /* force the BODY element to match the height of the HTML element */
+}
