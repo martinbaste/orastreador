@@ -3933,7 +3933,7 @@ input, select, textarea {
 /*Custom*/
 .book-cover {
 	line-height: 0;
-	max-width: 300px;
+	max-width: 360px;
 	margin: 0 auto;
 	background-size: contain;
 	box-shadow: white 0 0, #e6e6e6 1px 1px, #e6e6e6 2px 2px, #d2d2d2 4px 4px, #d2d2d2 5px 5px, #c3c3c3 7px 7px, #c3c3c3 8px 8px;
